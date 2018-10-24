@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_novo"
+        android:icon="@mipmap/ic_novo"
+        android:title="@string/menu_novo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_mapa"
+        android:icon="@mipmap/ic_mapa"
+        android:title="@string/menu_mapa"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_opcoes"
+        android:icon="@mipmap/ic_opcoes"
+        android:title="@string/menu_opcoes"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/menu_enviar_alunos"
+                android:icon="@mipmap/ic_enviar"
+                android:title="@string/menu_sincronizar"
+                app:showAsAction="never" />
+            <item android:id="@+id/menu_receber_provas"
+                android:icon="@mipmap/ic_receber"
+                android:title="@string/menu_receber_notas"
+                app:showAsAction="never" />
+            <item android:id="@+id/menu_preferencias"
+                android:icon="@mipmap/ic_preferencias"
+                android:title="@string/menu_preferencias"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

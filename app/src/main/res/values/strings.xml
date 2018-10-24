@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lista De Alunos</string>
+    <string name="menu_novo">Novo</string>
+    <string name="menu_mapa">Mapa</string>
+    <string name="menu_opcoes">Opções</string>
+    <string name="menu_sincronizar">Sincronizar</string>
+    <string name="menu_receber_notas">Receber Notas</string>
+    <string name="menu_preferencias">Preferências</string>
+    <string name="nome_aluno">Nome</string>
+    <string name="telefone_aluno">Telefone</string>
+    <string name="email_aluno">E-mail</string>
+    <string name="nota_aluno">Nota</string>
+    <string name="botao_gravar">Gravar</string>
+</resources>
